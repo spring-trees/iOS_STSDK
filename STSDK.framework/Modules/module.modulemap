@@ -1,6 +1,0 @@
-framework module STSDK {
-  umbrella header "STSDK.h"
-
-  export *
-  module * { export * }
-}

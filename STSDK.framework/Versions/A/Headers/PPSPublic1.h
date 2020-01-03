@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "STSDK.h"
+#import "STHeader.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
