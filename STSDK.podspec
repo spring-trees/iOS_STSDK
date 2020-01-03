@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'STSDK'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'Spring Tree SDK = STSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -36,8 +36,8 @@ Spring Tree For Indochat SDK 2020/1/2 make description
   
   s.requires_arc = true
   s.source_files = 'STSDK/Classes/**/*'
-  s.static_framework = true
-  s.ios.vendored_frameworks = 'STSDK.framework'
+  #s.static_framework = true
+  #s.ios.vendored_frameworks = 'STSDK.framework'
   #s.ios.vendored_frameworks = 'ios/STSDK.framework'
   #s.ios.vendored_frameworks = 'ios/PPSPrivateStaticLibrary.framework'
   s.resource_bundles = {
