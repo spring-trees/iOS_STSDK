@@ -23,6 +23,7 @@ pod ’STSDK’,:git=>'https://github.com/spring-trees/iOS_STSDK.git'
 ## Author
 
 tommyz, tommyz1981@gmail.com
+phoebe,phoebe.lin@friendo.com.tw
 
 ## License
 

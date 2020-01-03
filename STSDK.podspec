@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'STSDK'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Spring Tree SDK = STSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -23,12 +23,12 @@ Spring Tree For Indochat SDK 2020/1/2 make description
 
                        #s.homepage         = 'https://github.com/tommyz/STSDK'
                        #s.homepage         = 'https://github.com/spring-trees/iOS_IndoMonster.git'
-  s.homepage         = 'https://github.com/tommyz/PPSPrivateStaticLibrary.git'
+  s.homepage         = 'https://www.friendo.com.tw/brands'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tommyz' => 'tommyz1981@gmail.com' }
-  s.source           = { :git => 'https://github.com/spring-trees/iOS_STSDK.git', :tag => s.version.to_s }
-  #s.source           = { :git => '/Users/tommy-mac/iOS_IndoMonster', :tag => s.version.to_s }
+  s.license          = { :type => 'Spring Tree', :file => 'LICENSE' }
+  s.author           = 'Spring Tree'
+  s.source           = { :git => 'https://github.com/spring-trees/iOS_IndoMonster.git', :tag => s.version.to_s }
+#s.source           = { :git => '/Users/tommy-mac/iOS_IndoMonster', :tag => s.version.to_s }
   #s.source           = { :git => '/Users/phoebe.lin/Desktop/iOS_IndoMonster', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
@@ -49,15 +49,16 @@ Spring Tree For Indochat SDK 2020/1/2 make description
   #   'STSDK' => ['STSDK/Assets/*.png']
   # }
   
-  s.public_header_files = 'STSDK/Classes/Public/*.h'
+  #s.public_header_files = 'STSDK/Classes/Public/*.h'
   #s.frameworks = 'UIKit', 'MapKit'
   s.frameworks = 'Accelerate'
   s.dependency 'AFNetworking', '~> 2.7'
-  s.dependency 'JSONModel'
-  s.dependency 'Masonry'
-  #s.dependency 'lottie-ios'
+  #s.dependency 'AFNetworking', '~> 3.2.1'
+  s.dependency 'JSONModel', '~> 1.8.0'
+  s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'lottie-ios', '~> 2.5.2'
   s.dependency 'MBProgressHUD', '~> 1.1.0'
-  s.dependency 'MJRefresh'
+  s.dependency 'MJRefresh', '~> 3.3.1'
   s.dependency 'SDWebImage', '~> 5.0'
   #s.dependency 'YYModel'
 end
