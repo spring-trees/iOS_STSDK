@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  STSDK
+
+  Created by Tommy-mac on 2020/1/2.
+  Copyright © 2020 tommyz. All rights reserved.
+*/
+
+//App名稱
+"AppName" = "中文";
+"VersionLag" = "tw";
+
