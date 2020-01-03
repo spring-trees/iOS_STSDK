@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'STSDK'
-  s.version          = '0.1.8'
+  s.version          = '0.1.10'
   s.summary          = 'Spring Tree SDK = STSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -36,8 +36,8 @@ Spring Tree For Indochat SDK 2020/1/2 make description
   
   s.requires_arc = true
   s.source_files = 'STSDK/Classes/**/*'
-  #s.static_framework = true
-  #s.ios.vendored_frameworks = 'STSDK.framework'
+  s.static_framework = true
+  s.ios.vendored_frameworks = 'STSDK.framework'
   #s.ios.vendored_frameworks = 'ios/STSDK.framework'
   #s.ios.vendored_frameworks = 'ios/PPSPrivateStaticLibrary.framework'
   s.resource_bundles = {
@@ -49,7 +49,7 @@ Spring Tree For Indochat SDK 2020/1/2 make description
   #   'STSDK' => ['STSDK/Assets/*.png']
   # }
   
-  #s.public_header_files = 'STSDK/Classes/Public/*.h'
+  s.public_header_files = 'STSDK/Classes/Public/*.h'
   #s.frameworks = 'UIKit', 'MapKit'
   s.frameworks = 'Accelerate'
   s.dependency 'AFNetworking', '~> 2.7'
@@ -60,5 +60,5 @@ Spring Tree For Indochat SDK 2020/1/2 make description
   s.dependency 'MBProgressHUD', '~> 1.1.0'
   s.dependency 'MJRefresh', '~> 3.3.1'
   s.dependency 'SDWebImage', '~> 5.0'
-  #s.dependency 'YYModel'
+  s.dependency 'YYModel', '~> 1.0.4'
 end
