@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'STSDK'
-  s.version          = '0.1.10'
+  s.version          = '0.1.11'
   s.summary          = 'Spring Tree SDK = STSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -27,8 +27,8 @@ Spring Tree For Indochat SDK 2020/1/2 make description
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Spring Tree', :file => 'LICENSE' }
   s.author           = 'Spring Tree'
-  s.source           = { :git => 'https://github.com/spring-trees/iOS_IndoMonster.git', :tag => s.version.to_s }
-#s.source           = { :git => '/Users/tommy-mac/iOS_IndoMonster', :tag => s.version.to_s }
+  #s.source           = { :git => 'https://github.com/spring-trees/iOS_IndoMonster.git', :tag => s.version.to_s }
+  s.source           = { :git => '/Users/tommy-mac/iOS_IndoMonster', :tag => s.version.to_s }
   #s.source           = { :git => '/Users/phoebe.lin/Desktop/iOS_IndoMonster', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
@@ -38,20 +38,13 @@ Spring Tree For Indochat SDK 2020/1/2 make description
   s.source_files = 'STSDK/Classes/**/*'
   s.static_framework = true
   s.ios.vendored_frameworks = 'STSDK.framework'
-  #s.ios.vendored_frameworks = 'ios/STSDK.framework'
-  #s.ios.vendored_frameworks = 'ios/PPSPrivateStaticLibrary.framework'
   s.resource_bundles = {
       'STSDK' => ['STSDK/Assets/*.png','STSDK/Assets/*.xcassets'],
       'STSDK-Localizations' => ['STSDK/Localizations/*.lproj']
   }
   
-  # s.resource_bundles = {
-  #   'STSDK' => ['STSDK/Assets/*.png']
-  # }
-  
   s.public_header_files = 'STSDK/Classes/Public/*.h'
-  #s.frameworks = 'UIKit', 'MapKit'
-  s.frameworks = 'Accelerate'
+  s.frameworks = 'UIKit', 'Accelerate'
   s.dependency 'AFNetworking', '~> 2.7'
   #s.dependency 'AFNetworking', '~> 3.2.1'
   s.dependency 'JSONModel', '~> 1.8.0'
