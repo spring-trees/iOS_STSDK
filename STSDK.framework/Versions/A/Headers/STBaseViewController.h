@@ -19,9 +19,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface STBaseViewController : UIViewController<STBaseViewModelDelegate>
 
-- (void)requestFailed:(STBaseRequestModel *)model errorMsg:(NSString *)errorMsg;
+- (void)requestFailed:(STBaseRequestModel *)model
+             dataDict:(id)dataDict
+             errorMsg:(NSString *)errorMsg;
 
-- (void)requestSuccess:(STBaseRequestModel *)model dataDict:(id)dataDict;
+- (void)requestSuccess:(STBaseRequestModel *)model
+              dataDict:(id)dataDict
+              errorMsg:(NSString *)errorMsg;
+
 - (void)startAnimating;  //开启动画，也就是开始旋转。
 
 - (void)stopAnimating;   //停止动画，旋转。

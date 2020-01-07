@@ -16,7 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *apiName;
 @property (nonatomic, strong) NSString *apiLocation;
 @property (nonatomic, strong) NSDictionary *requstData;
-
+@property (nonatomic, assign) BOOL isTestDomain;
+@property (nonatomic, strong) NSString *apiBaseUrl;
 @end
 
 NS_ASSUME_NONNULL_END

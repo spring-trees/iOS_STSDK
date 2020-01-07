@@ -17,17 +17,23 @@ NS_ASSUME_NONNULL_BEGIN
  *  VM访问接口时出错了
  *
  *  @param model    请求model
+ *  @param dataDict    接口返回的数据对象
  *  @param errorMsg        错误描述
  */
-- (void)requestFailed:(STBaseRequestModel *)model errorMsg:(NSString *)errorMsg;
+- (void)requestFailed:(STBaseRequestModel *)model
+             dataDict:(id)dataDict
+             errorMsg:(NSString *)errorMsg;
 
 /**
  *  VM访问接口成功返回
  *
  *  @param model     请求model
  *  @param dataDict    接口返回的数据对象
+ *  @param errorMsg        错误描述
  */
-- (void)requestSuccess:(STBaseRequestModel *)model dataDict:(id)dataDict;
+- (void)requestSuccess:(STBaseRequestModel *)model
+              dataDict:(id)dataDict
+              errorMsg:(NSString *)errorMsg;
 
 @end
 
