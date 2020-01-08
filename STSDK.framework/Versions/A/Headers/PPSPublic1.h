@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "STHeader.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,8 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)public1;
 - (void)public1Test;
-- (void)postApi;
-- (UIView*)addLottieView;
+
 @end
 
 NS_ASSUME_NONNULL_END

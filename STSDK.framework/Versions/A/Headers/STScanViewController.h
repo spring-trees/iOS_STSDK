@@ -7,6 +7,8 @@
 
 #import "STBaseViewController.h"
 #import "ST_VM_Test.h"
+#import "UIView+Extension.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface STScanViewController : STBaseViewController

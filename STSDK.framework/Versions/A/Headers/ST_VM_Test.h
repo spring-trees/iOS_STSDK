@@ -13,7 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)requsetTest;
 - (void)requsetDic:(NSDictionary*)dataDic;
-//- (void)requsetDetail:(NSDictionary*)dataDic;
 @end
 
 NS_ASSUME_NONNULL_END
