@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSBundle*)getBundle;
 + (UIImage*)imageNamed:(NSString*)imageName;
 + (NSString*)locatingStr:(NSString*)lagStr;
++ (UIColor*)colorWithHex:(NSString*)hexColor alpha:(CGFloat)alpha;
 @end
 
 NS_ASSUME_NONNULL_END

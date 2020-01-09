@@ -9,12 +9,6 @@
 #define STHeader_h
 
 
-
-
-//cate
-//#import "UIView+Extension.h"
-
-//custom
 #import "PPSPublic1.h"
 #import "ST_VM_Test.h"
 #import "STBaseRequestModel.h"
